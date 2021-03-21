@@ -299,6 +299,9 @@ WITH_CUDA:BOOL=ON
 //Enable debug log output
 WITH_DEBUG_LOG:BOOL=OFF
 
+//Enable DMI/SMBIOS reader
+WITH_DMI:BOOL=ON
+
 //Enable internal embedded JSON config
 WITH_EMBEDDED_CONFIG:BOOL=OFF
 

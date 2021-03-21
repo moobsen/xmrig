@@ -2111,9 +2111,87 @@ CMakeFiles/xmrig.dir/src/xmrig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/xmrig.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/xmrig.cpp -o CMakeFiles/xmrig.dir/src/xmrig.cpp.s
 
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/hw/api/HwApi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o -c /home/mo/src/github/xmrig/src/hw/api/HwApi.cpp
+
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/hw/api/HwApi.cpp > CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.i
+
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/hw/api/HwApi.cpp -o CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.s
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/hw/dmi/DmiBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o -c /home/mo/src/github/xmrig/src/hw/dmi/DmiBoard.cpp
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/hw/dmi/DmiBoard.cpp > CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.i
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/hw/dmi/DmiBoard.cpp -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.s
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/hw/dmi/DmiMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o -c /home/mo/src/github/xmrig/src/hw/dmi/DmiMemory.cpp
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/hw/dmi/DmiMemory.cpp > CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.i
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/hw/dmi/DmiMemory.cpp -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.s
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/hw/dmi/DmiReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o -c /home/mo/src/github/xmrig/src/hw/dmi/DmiReader.cpp
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/hw/dmi/DmiReader.cpp > CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.i
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/hw/dmi/DmiReader.cpp -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.s
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.o: src/hw/dmi/DmiTools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.o -c /home/mo/src/github/xmrig/src/hw/dmi/DmiTools.cpp
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/hw/dmi/DmiTools.cpp > CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.i
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/hw/dmi/DmiTools.cpp -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.s
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/hw/dmi/DmiReader_unix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o -c /home/mo/src/github/xmrig/src/hw/dmi/DmiReader_unix.cpp
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/hw/dmi/DmiReader_unix.cpp > CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.i
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/hw/dmi/DmiReader_unix.cpp -o CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.s
+
 CMakeFiles/xmrig.dir/src/base/io/json/Json_unix.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/io/json/Json_unix.cpp.o: src/base/io/json/Json_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/xmrig.dir/src/base/io/json/Json_unix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/xmrig.dir/src/base/io/json/Json_unix.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/io/json/Json_unix.cpp.o -c /home/mo/src/github/xmrig/src/base/io/json/Json_unix.cpp
 
 CMakeFiles/xmrig.dir/src/base/io/json/Json_unix.cpp.i: cmake_force
@@ -2126,7 +2204,7 @@ CMakeFiles/xmrig.dir/src/base/io/json/Json_unix.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/kernel/Platform_unix.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/kernel/Platform_unix.cpp.o: src/base/kernel/Platform_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/xmrig.dir/src/base/kernel/Platform_unix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/xmrig.dir/src/base/kernel/Platform_unix.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/kernel/Platform_unix.cpp.o -c /home/mo/src/github/xmrig/src/base/kernel/Platform_unix.cpp
 
 CMakeFiles/xmrig.dir/src/base/kernel/Platform_unix.cpp.i: cmake_force
@@ -2139,7 +2217,7 @@ CMakeFiles/xmrig.dir/src/base/kernel/Platform_unix.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/kernel/Process_unix.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/kernel/Process_unix.cpp.o: src/base/kernel/Process_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/xmrig.dir/src/base/kernel/Process_unix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/xmrig.dir/src/base/kernel/Process_unix.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/kernel/Process_unix.cpp.o -c /home/mo/src/github/xmrig/src/base/kernel/Process_unix.cpp
 
 CMakeFiles/xmrig.dir/src/base/kernel/Process_unix.cpp.i: cmake_force
@@ -2152,7 +2230,7 @@ CMakeFiles/xmrig.dir/src/base/kernel/Process_unix.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/kernel/Platform_hwloc.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/kernel/Platform_hwloc.cpp.o: src/base/kernel/Platform_hwloc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/xmrig.dir/src/base/kernel/Platform_hwloc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/xmrig.dir/src/base/kernel/Platform_hwloc.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/kernel/Platform_hwloc.cpp.o -c /home/mo/src/github/xmrig/src/base/kernel/Platform_hwloc.cpp
 
 CMakeFiles/xmrig.dir/src/base/kernel/Platform_hwloc.cpp.i: cmake_force
@@ -2165,7 +2243,7 @@ CMakeFiles/xmrig.dir/src/base/kernel/Platform_hwloc.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/App_unix.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/App_unix.cpp.o: src/App_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/xmrig.dir/src/App_unix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/xmrig.dir/src/App_unix.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/App_unix.cpp.o -c /home/mo/src/github/xmrig/src/App_unix.cpp
 
 CMakeFiles/xmrig.dir/src/App_unix.cpp.i: cmake_force
@@ -2178,7 +2256,7 @@ CMakeFiles/xmrig.dir/src/App_unix.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_unix.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_unix.cpp.o: src/crypto/common/VirtualMemory_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_unix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_unix.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_unix.cpp.o -c /home/mo/src/github/xmrig/src/crypto/common/VirtualMemory_unix.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_unix.cpp.i: cmake_force
@@ -2191,7 +2269,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_unix.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/crypto/common/LinuxMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o -c /home/mo/src/github/xmrig/src/crypto/common/LinuxMemory.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.i: cmake_force
@@ -2204,7 +2282,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/cn/c_blake256.c.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/cn/c_blake256.c.o: src/crypto/cn/c_blake256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/xmrig.dir/src/crypto/cn/c_blake256.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/xmrig.dir/src/crypto/cn/c_blake256.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/cn/c_blake256.c.o   -c /home/mo/src/github/xmrig/src/crypto/cn/c_blake256.c
 
 CMakeFiles/xmrig.dir/src/crypto/cn/c_blake256.c.i: cmake_force
@@ -2217,7 +2295,7 @@ CMakeFiles/xmrig.dir/src/crypto/cn/c_blake256.c.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/cn/c_groestl.c.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/cn/c_groestl.c.o: src/crypto/cn/c_groestl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/xmrig.dir/src/crypto/cn/c_groestl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/xmrig.dir/src/crypto/cn/c_groestl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/cn/c_groestl.c.o   -c /home/mo/src/github/xmrig/src/crypto/cn/c_groestl.c
 
 CMakeFiles/xmrig.dir/src/crypto/cn/c_groestl.c.i: cmake_force
@@ -2230,7 +2308,7 @@ CMakeFiles/xmrig.dir/src/crypto/cn/c_groestl.c.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/cn/c_jh.c.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/cn/c_jh.c.o: src/crypto/cn/c_jh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/xmrig.dir/src/crypto/cn/c_jh.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/xmrig.dir/src/crypto/cn/c_jh.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/cn/c_jh.c.o   -c /home/mo/src/github/xmrig/src/crypto/cn/c_jh.c
 
 CMakeFiles/xmrig.dir/src/crypto/cn/c_jh.c.i: cmake_force
@@ -2243,7 +2321,7 @@ CMakeFiles/xmrig.dir/src/crypto/cn/c_jh.c.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/cn/c_skein.c.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/cn/c_skein.c.o: src/crypto/cn/c_skein.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/xmrig.dir/src/crypto/cn/c_skein.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/xmrig.dir/src/crypto/cn/c_skein.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/cn/c_skein.c.o   -c /home/mo/src/github/xmrig/src/crypto/cn/c_skein.c
 
 CMakeFiles/xmrig.dir/src/crypto/cn/c_skein.c.i: cmake_force
@@ -2256,7 +2334,7 @@ CMakeFiles/xmrig.dir/src/crypto/cn/c_skein.c.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/cn/CnCtx.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/cn/CnCtx.cpp.o: src/crypto/cn/CnCtx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/cn/CnCtx.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/cn/CnCtx.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/cn/CnCtx.cpp.o -c /home/mo/src/github/xmrig/src/crypto/cn/CnCtx.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/cn/CnCtx.cpp.i: cmake_force
@@ -2269,7 +2347,7 @@ CMakeFiles/xmrig.dir/src/crypto/cn/CnCtx.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/cn/CnHash.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/cn/CnHash.cpp.o: src/crypto/cn/CnHash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/cn/CnHash.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/cn/CnHash.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/cn/CnHash.cpp.o -c /home/mo/src/github/xmrig/src/crypto/cn/CnHash.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/cn/CnHash.cpp.i: cmake_force
@@ -2282,7 +2360,7 @@ CMakeFiles/xmrig.dir/src/crypto/cn/CnHash.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/common/HugePagesInfo.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/common/HugePagesInfo.cpp.o: src/crypto/common/HugePagesInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/HugePagesInfo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/HugePagesInfo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/common/HugePagesInfo.cpp.o -c /home/mo/src/github/xmrig/src/crypto/common/HugePagesInfo.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/common/HugePagesInfo.cpp.i: cmake_force
@@ -2295,7 +2373,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/HugePagesInfo.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/common/MemoryPool.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/common/MemoryPool.cpp.o: src/crypto/common/MemoryPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/MemoryPool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/MemoryPool.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/common/MemoryPool.cpp.o -c /home/mo/src/github/xmrig/src/crypto/common/MemoryPool.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/common/MemoryPool.cpp.i: cmake_force
@@ -2308,7 +2386,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/MemoryPool.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/common/Nonce.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/common/Nonce.cpp.o: src/crypto/common/Nonce.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/Nonce.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/Nonce.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/common/Nonce.cpp.o -c /home/mo/src/github/xmrig/src/crypto/common/Nonce.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/common/Nonce.cpp.i: cmake_force
@@ -2321,7 +2399,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/Nonce.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory.cpp.o: src/crypto/common/VirtualMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory.cpp.o -c /home/mo/src/github/xmrig/src/crypto/common/VirtualMemory.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory.cpp.i: cmake_force
@@ -2334,7 +2412,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/common/NUMAMemoryPool.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/common/NUMAMemoryPool.cpp.o: src/crypto/common/NUMAMemoryPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/NUMAMemoryPool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/NUMAMemoryPool.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/common/NUMAMemoryPool.cpp.o -c /home/mo/src/github/xmrig/src/crypto/common/NUMAMemoryPool.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/common/NUMAMemoryPool.cpp.i: cmake_force
@@ -2347,7 +2425,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/NUMAMemoryPool.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_hwloc.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_hwloc.cpp.o: src/crypto/common/VirtualMemory_hwloc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_hwloc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_hwloc.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_hwloc.cpp.o -c /home/mo/src/github/xmrig/src/crypto/common/VirtualMemory_hwloc.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_hwloc.cpp.i: cmake_force
@@ -2360,7 +2438,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/VirtualMemory_hwloc.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/aes_hash.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/aes_hash.cpp.o: src/crypto/randomx/aes_hash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/aes_hash.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/aes_hash.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/aes_hash.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/aes_hash.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/aes_hash.cpp.i: cmake_force
@@ -2373,7 +2451,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/aes_hash.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/allocator.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/allocator.cpp.o: src/crypto/randomx/allocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/allocator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/allocator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/allocator.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/allocator.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/allocator.cpp.i: cmake_force
@@ -2386,7 +2464,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/allocator.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/blake2_generator.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/blake2_generator.cpp.o: src/crypto/randomx/blake2_generator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/blake2_generator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/blake2_generator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/blake2_generator.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/blake2_generator.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/blake2_generator.cpp.i: cmake_force
@@ -2399,7 +2477,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/blake2_generator.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b.c.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b.c.o: src/crypto/randomx/blake2/blake2b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b.c.o   -c /home/mo/src/github/xmrig/src/crypto/randomx/blake2/blake2b.c
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b.c.i: cmake_force
@@ -2412,7 +2490,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b.c.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/bytecode_machine.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/bytecode_machine.cpp.o: src/crypto/randomx/bytecode_machine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/bytecode_machine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/bytecode_machine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/bytecode_machine.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/bytecode_machine.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/bytecode_machine.cpp.i: cmake_force
@@ -2425,7 +2503,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/bytecode_machine.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/dataset.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/dataset.cpp.o: src/crypto/randomx/dataset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/dataset.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/dataset.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/dataset.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/dataset.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/dataset.cpp.i: cmake_force
@@ -2438,7 +2516,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/dataset.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/instructions_portable.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/instructions_portable.cpp.o: src/crypto/randomx/instructions_portable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/instructions_portable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/instructions_portable.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/instructions_portable.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/instructions_portable.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/instructions_portable.cpp.i: cmake_force
@@ -2451,7 +2529,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/instructions_portable.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/randomx.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/randomx.cpp.o: src/crypto/randomx/randomx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/randomx.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/randomx.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/randomx.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/randomx.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/randomx.cpp.i: cmake_force
@@ -2464,7 +2542,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/randomx.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/reciprocal.c.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/reciprocal.c.o: src/crypto/randomx/reciprocal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/xmrig.dir/src/crypto/randomx/reciprocal.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/xmrig.dir/src/crypto/randomx/reciprocal.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/reciprocal.c.o   -c /home/mo/src/github/xmrig/src/crypto/randomx/reciprocal.c
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/reciprocal.c.i: cmake_force
@@ -2477,7 +2555,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/reciprocal.c.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/soft_aes.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/soft_aes.cpp.o: src/crypto/randomx/soft_aes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/soft_aes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/soft_aes.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/soft_aes.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/soft_aes.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/soft_aes.cpp.i: cmake_force
@@ -2490,7 +2568,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/soft_aes.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/superscalar.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/superscalar.cpp.o: src/crypto/randomx/superscalar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/superscalar.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/superscalar.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/superscalar.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/superscalar.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/superscalar.cpp.i: cmake_force
@@ -2503,7 +2581,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/superscalar.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_machine.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_machine.cpp.o: src/crypto/randomx/virtual_machine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_machine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_machine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_machine.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/virtual_machine.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_machine.cpp.i: cmake_force
@@ -2516,7 +2594,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_machine.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_memory.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_memory.cpp.o: src/crypto/randomx/virtual_memory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_memory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_memory.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_memory.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/virtual_memory.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_memory.cpp.i: cmake_force
@@ -2529,7 +2607,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/virtual_memory.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled_light.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled_light.cpp.o: src/crypto/randomx/vm_compiled_light.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled_light.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled_light.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled_light.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/vm_compiled_light.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled_light.cpp.i: cmake_force
@@ -2542,7 +2620,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled_light.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled.cpp.o: src/crypto/randomx/vm_compiled.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/vm_compiled.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled.cpp.i: cmake_force
@@ -2555,7 +2633,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/vm_compiled.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted_light.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted_light.cpp.o: src/crypto/randomx/vm_interpreted_light.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted_light.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted_light.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted_light.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/vm_interpreted_light.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted_light.cpp.i: cmake_force
@@ -2568,7 +2646,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted_light.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted.cpp.o: src/crypto/randomx/vm_interpreted.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/vm_interpreted.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted.cpp.i: cmake_force
@@ -2581,7 +2659,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/vm_interpreted.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/rx/Rx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/Rx.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.i: cmake_force
@@ -2594,7 +2672,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxAlgo.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/rx/RxAlgo.cpp.o: src/crypto/rx/RxAlgo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxAlgo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxAlgo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxAlgo.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxAlgo.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxAlgo.cpp.i: cmake_force
@@ -2607,7 +2685,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxAlgo.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o: src/crypto/rx/RxBasicStorage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxBasicStorage.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.i: cmake_force
@@ -2620,7 +2698,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxCache.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/rx/RxCache.cpp.o: src/crypto/rx/RxCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxCache.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxCache.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxCache.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxCache.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxCache.cpp.i: cmake_force
@@ -2633,7 +2711,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxCache.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o: src/crypto/rx/RxConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxConfig.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.i: cmake_force
@@ -2646,7 +2724,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: src/crypto/rx/RxDataset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxDataset.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.i: cmake_force
@@ -2659,7 +2737,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: src/crypto/rx/RxQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxQueue.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.i: cmake_force
@@ -2672,7 +2750,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: src/crypto/rx/RxVm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxVm.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.i: cmake_force
@@ -2685,7 +2763,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86_static.S.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86_static.S.o: src/crypto/randomx/jit_compiler_x86_static.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86_static.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86_static.S.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86_static.S.o   -c /home/mo/src/github/xmrig/src/crypto/randomx/jit_compiler_x86_static.S
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86_static.S.i: cmake_force
@@ -2698,7 +2776,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86_static.S.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o: src/crypto/randomx/jit_compiler_x86.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o -c /home/mo/src/github/xmrig/src/crypto/randomx/jit_compiler_x86.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.i: cmake_force
@@ -2711,7 +2789,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b_sse41.c.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b_sse41.c.o: src/crypto/randomx/blake2/blake2b_sse41.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b_sse41.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b_sse41.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -msse4.1 -o CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b_sse41.c.o   -c /home/mo/src/github/xmrig/src/crypto/randomx/blake2/blake2b_sse41.c
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b_sse41.c.i: cmake_force
@@ -2724,7 +2802,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b_sse41.c.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: src/crypto/rx/RxNUMAStorage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxNUMAStorage.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.i: cmake_force
@@ -2735,35 +2813,74 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/crypto/rx/RxNUMAStorage.cpp -o CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.s
 
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: CMakeFiles/xmrig.dir/flags.make
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/crypto/rx/Rx_linux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/Rx_linux.cpp
+CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o: src/crypto/rx/RxFix_linux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxFix_linux.cpp
 
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/crypto/rx/Rx_linux.cpp > CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.i
+CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/crypto/rx/RxFix_linux.cpp > CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.i
 
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/crypto/rx/Rx_linux.cpp -o CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.s
+CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/crypto/rx/RxFix_linux.cpp -o CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.s
 
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: CMakeFiles/xmrig.dir/flags.make
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/crypto/rx/msr/MsrItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/msr/MsrItem.cpp
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/hw/msr/Msr_linux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o -c /home/mo/src/github/xmrig/src/hw/msr/Msr_linux.cpp
 
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/crypto/rx/msr/MsrItem.cpp > CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.i
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/hw/msr/Msr_linux.cpp > CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.i
 
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/crypto/rx/msr/MsrItem.cpp -o CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.s
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/hw/msr/Msr_linux.cpp -o CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.s
+
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/crypto/rx/RxMsr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o -c /home/mo/src/github/xmrig/src/crypto/rx/RxMsr.cpp
+
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/crypto/rx/RxMsr.cpp > CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.i
+
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/crypto/rx/RxMsr.cpp -o CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.s
+
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/hw/msr/Msr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o -c /home/mo/src/github/xmrig/src/hw/msr/Msr.cpp
+
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/hw/msr/Msr.cpp > CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.i
+
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/hw/msr/Msr.cpp -o CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.s
+
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: CMakeFiles/xmrig.dir/flags.make
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/hw/msr/MsrItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o -c /home/mo/src/github/xmrig/src/hw/msr/MsrItem.cpp
+
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/src/github/xmrig/src/hw/msr/MsrItem.cpp > CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.i
+
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/src/github/xmrig/src/hw/msr/MsrItem.cpp -o CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.s
 
 CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.o: src/crypto/argon2/Impl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.o -c /home/mo/src/github/xmrig/src/crypto/argon2/Impl.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.i: cmake_force
@@ -2776,7 +2893,7 @@ CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/astrobwt/AstroBWT.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/astrobwt/AstroBWT.cpp.o: src/crypto/astrobwt/AstroBWT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/astrobwt/AstroBWT.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/astrobwt/AstroBWT.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/astrobwt/AstroBWT.cpp.o -c /home/mo/src/github/xmrig/src/crypto/astrobwt/AstroBWT.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/astrobwt/AstroBWT.cpp.i: cmake_force
@@ -2789,12 +2906,12 @@ CMakeFiles/xmrig.dir/src/crypto/astrobwt/AstroBWT.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/astrobwt/sha3_256_avx2.S.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/astrobwt/sha3_256_avx2.S.o: src/crypto/astrobwt/sha3_256_avx2.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building ASM object CMakeFiles/xmrig.dir/src/crypto/astrobwt/sha3_256_avx2.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building ASM object CMakeFiles/xmrig.dir/src/crypto/astrobwt/sha3_256_avx2.S.o"
 	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/astrobwt/sha3_256_avx2.S.o -c /home/mo/src/github/xmrig/src/crypto/astrobwt/sha3_256_avx2.S
 
 CMakeFiles/xmrig.dir/src/crypto/astrobwt/Salsa20.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/astrobwt/Salsa20.cpp.o: src/crypto/astrobwt/Salsa20.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/astrobwt/Salsa20.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/astrobwt/Salsa20.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/astrobwt/Salsa20.cpp.o -c /home/mo/src/github/xmrig/src/crypto/astrobwt/Salsa20.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/astrobwt/Salsa20.cpp.i: cmake_force
@@ -2807,7 +2924,7 @@ CMakeFiles/xmrig.dir/src/crypto/astrobwt/Salsa20.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/kawpow/KPCache.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/kawpow/KPCache.cpp.o: src/crypto/kawpow/KPCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/kawpow/KPCache.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/kawpow/KPCache.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/kawpow/KPCache.cpp.o -c /home/mo/src/github/xmrig/src/crypto/kawpow/KPCache.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/kawpow/KPCache.cpp.i: cmake_force
@@ -2820,7 +2937,7 @@ CMakeFiles/xmrig.dir/src/crypto/kawpow/KPCache.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/kawpow/KPHash.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/kawpow/KPHash.cpp.o: src/crypto/kawpow/KPHash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/kawpow/KPHash.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/kawpow/KPHash.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/kawpow/KPHash.cpp.o -c /home/mo/src/github/xmrig/src/crypto/kawpow/KPHash.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/kawpow/KPHash.cpp.i: cmake_force
@@ -2833,7 +2950,7 @@ CMakeFiles/xmrig.dir/src/crypto/kawpow/KPHash.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/io/log/backends/SysLog.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/io/log/backends/SysLog.cpp.o: src/base/io/log/backends/SysLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/xmrig.dir/src/base/io/log/backends/SysLog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/xmrig.dir/src/base/io/log/backends/SysLog.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/io/log/backends/SysLog.cpp.o -c /home/mo/src/github/xmrig/src/base/io/log/backends/SysLog.cpp
 
 CMakeFiles/xmrig.dir/src/base/io/log/backends/SysLog.cpp.i: cmake_force
@@ -2846,7 +2963,7 @@ CMakeFiles/xmrig.dir/src/base/io/log/backends/SysLog.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/net/stratum/Tls.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/net/stratum/Tls.cpp.o: src/base/net/stratum/Tls.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/stratum/Tls.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/stratum/Tls.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/net/stratum/Tls.cpp.o -c /home/mo/src/github/xmrig/src/base/net/stratum/Tls.cpp
 
 CMakeFiles/xmrig.dir/src/base/net/stratum/Tls.cpp.i: cmake_force
@@ -2859,7 +2976,7 @@ CMakeFiles/xmrig.dir/src/base/net/stratum/Tls.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/net/tls/ServerTls.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/net/tls/ServerTls.cpp.o: src/base/net/tls/ServerTls.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/tls/ServerTls.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/tls/ServerTls.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/net/tls/ServerTls.cpp.o -c /home/mo/src/github/xmrig/src/base/net/tls/ServerTls.cpp
 
 CMakeFiles/xmrig.dir/src/base/net/tls/ServerTls.cpp.i: cmake_force
@@ -2872,7 +2989,7 @@ CMakeFiles/xmrig.dir/src/base/net/tls/ServerTls.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/net/tls/TlsConfig.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/net/tls/TlsConfig.cpp.o: src/base/net/tls/TlsConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/tls/TlsConfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/tls/TlsConfig.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/net/tls/TlsConfig.cpp.o -c /home/mo/src/github/xmrig/src/base/net/tls/TlsConfig.cpp
 
 CMakeFiles/xmrig.dir/src/base/net/tls/TlsConfig.cpp.i: cmake_force
@@ -2885,7 +3002,7 @@ CMakeFiles/xmrig.dir/src/base/net/tls/TlsConfig.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/net/tls/TlsContext.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/net/tls/TlsContext.cpp.o: src/base/net/tls/TlsContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/tls/TlsContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/tls/TlsContext.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/net/tls/TlsContext.cpp.o -c /home/mo/src/github/xmrig/src/base/net/tls/TlsContext.cpp
 
 CMakeFiles/xmrig.dir/src/base/net/tls/TlsContext.cpp.i: cmake_force
@@ -2898,7 +3015,7 @@ CMakeFiles/xmrig.dir/src/base/net/tls/TlsContext.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/net/tls/TlsGen.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/net/tls/TlsGen.cpp.o: src/base/net/tls/TlsGen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/tls/TlsGen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/tls/TlsGen.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/net/tls/TlsGen.cpp.o -c /home/mo/src/github/xmrig/src/base/net/tls/TlsGen.cpp
 
 CMakeFiles/xmrig.dir/src/base/net/tls/TlsGen.cpp.i: cmake_force
@@ -2911,7 +3028,7 @@ CMakeFiles/xmrig.dir/src/base/net/tls/TlsGen.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/net/https/HttpsClient.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/net/https/HttpsClient.cpp.o: src/base/net/https/HttpsClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/https/HttpsClient.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/https/HttpsClient.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/net/https/HttpsClient.cpp.o -c /home/mo/src/github/xmrig/src/base/net/https/HttpsClient.cpp
 
 CMakeFiles/xmrig.dir/src/base/net/https/HttpsClient.cpp.i: cmake_force
@@ -2924,7 +3041,7 @@ CMakeFiles/xmrig.dir/src/base/net/https/HttpsClient.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/net/https/HttpsContext.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/net/https/HttpsContext.cpp.o: src/base/net/https/HttpsContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/https/HttpsContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/https/HttpsContext.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/net/https/HttpsContext.cpp.o -c /home/mo/src/github/xmrig/src/base/net/https/HttpsContext.cpp
 
 CMakeFiles/xmrig.dir/src/base/net/https/HttpsContext.cpp.i: cmake_force
@@ -2937,7 +3054,7 @@ CMakeFiles/xmrig.dir/src/base/net/https/HttpsContext.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/base/net/https/HttpsServer.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/base/net/https/HttpsServer.cpp.o: src/base/net/https/HttpsServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/https/HttpsServer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building CXX object CMakeFiles/xmrig.dir/src/base/net/https/HttpsServer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/base/net/https/HttpsServer.cpp.o -c /home/mo/src/github/xmrig/src/base/net/https/HttpsServer.cpp
 
 CMakeFiles/xmrig.dir/src/base/net/https/HttpsServer.cpp.i: cmake_force
@@ -2950,7 +3067,7 @@ CMakeFiles/xmrig.dir/src/base/net/https/HttpsServer.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/common/Assembly.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/common/Assembly.cpp.o: src/crypto/common/Assembly.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/Assembly.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/common/Assembly.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/common/Assembly.cpp.o -c /home/mo/src/github/xmrig/src/crypto/common/Assembly.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/common/Assembly.cpp.i: cmake_force
@@ -2963,7 +3080,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/Assembly.cpp.s: cmake_force
 
 CMakeFiles/xmrig.dir/src/crypto/cn/r/CryptonightR_gen.cpp.o: CMakeFiles/xmrig.dir/flags.make
 CMakeFiles/xmrig.dir/src/crypto/cn/r/CryptonightR_gen.cpp.o: src/crypto/cn/r/CryptonightR_gen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/cn/r/CryptonightR_gen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building CXX object CMakeFiles/xmrig.dir/src/crypto/cn/r/CryptonightR_gen.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrig.dir/src/crypto/cn/r/CryptonightR_gen.cpp.o -c /home/mo/src/github/xmrig/src/crypto/cn/r/CryptonightR_gen.cpp
 
 CMakeFiles/xmrig.dir/src/crypto/cn/r/CryptonightR_gen.cpp.i: cmake_force
@@ -3134,6 +3251,12 @@ xmrig_OBJECTS = \
 "CMakeFiles/xmrig.dir/src/net/strategies/DonateStrategy.cpp.o" \
 "CMakeFiles/xmrig.dir/src/Summary.cpp.o" \
 "CMakeFiles/xmrig.dir/src/xmrig.cpp.o" \
+"CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o" \
+"CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o" \
+"CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o" \
+"CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o" \
+"CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.o" \
+"CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o" \
 "CMakeFiles/xmrig.dir/src/base/io/json/Json_unix.cpp.o" \
 "CMakeFiles/xmrig.dir/src/base/kernel/Platform_unix.cpp.o" \
 "CMakeFiles/xmrig.dir/src/base/kernel/Process_unix.cpp.o" \
@@ -3182,8 +3305,11 @@ xmrig_OBJECTS = \
 "CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o" \
 "CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b_sse41.c.o" \
 "CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o" \
-"CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o" \
-"CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o" \
+"CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o" \
+"CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o" \
+"CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o" \
+"CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o" \
+"CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o" \
 "CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.o" \
 "CMakeFiles/xmrig.dir/src/crypto/astrobwt/AstroBWT.cpp.o" \
 "CMakeFiles/xmrig.dir/src/crypto/astrobwt/sha3_256_avx2.S.o" \
@@ -3363,6 +3489,12 @@ xmrig: CMakeFiles/xmrig.dir/src/net/Network.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/net/strategies/DonateStrategy.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/Summary.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/xmrig.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/base/io/json/Json_unix.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/base/kernel/Platform_unix.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/base/kernel/Process_unix.cpp.o
@@ -3411,8 +3543,11 @@ xmrig: CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86_static.S.o
 xmrig: CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/crypto/randomx/blake2/blake2b_sse41.c.o
 xmrig: CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o
-xmrig: CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o
-xmrig: CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o
+xmrig: CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/crypto/astrobwt/AstroBWT.cpp.o
 xmrig: CMakeFiles/xmrig.dir/src/crypto/astrobwt/sha3_256_avx2.S.o
@@ -3444,7 +3579,7 @@ xmrig: src/3rdparty/argon2/libargon2-xop.a
 xmrig: src/3rdparty/argon2/libargon2-avx2.a
 xmrig: src/3rdparty/argon2/libargon2-avx512f.a
 xmrig: CMakeFiles/xmrig.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Linking CXX executable xmrig"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Linking CXX executable xmrig"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xmrig.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -139,6 +139,7 @@ CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/core/config/Config.h
 CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/crypto/common/Assembly.h
 CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/crypto/common/VirtualMemory.h
 CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/crypto/rx/RxConfig.h
+CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/hw/dmi/DmiReader.h
 CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/version.h
 CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/3rdparty/rapidjson/fwd.h
 CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
@@ -170,7 +171,9 @@ CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/crypto/cn/CnAlgo.h
 CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/crypto/cn/CnHash.h
 CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/crypto/common/HugePagesInfo.h
 CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/crypto/common/Nonce.h
-CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/hw/dmi/DmiBoard.h
+CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/hw/dmi/DmiMemory.h
+CMakeFiles/xmrig.dir/src/Summary.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/backend/common/GpuWorker.cpp.o: src/backend/common/GpuWorker.cpp
 CMakeFiles/xmrig.dir/src/backend/common/GpuWorker.cpp.o: src/backend/common/GpuWorker.h
@@ -441,7 +444,7 @@ CMakeFiles/xmrig.dir/src/backend/cpu/CpuBackend.cpp.o: src/crypto/randomx/config
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuBackend.cpp.o: src/crypto/rx/Rx.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuBackend.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuBackend.cpp.o: src/crypto/rx/RxDataset.h
-CMakeFiles/xmrig.dir/src/backend/cpu/CpuBackend.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/backend/cpu/CpuBackend.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuConfig.cpp.o: src/backend/cpu/CpuConfig.cpp
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuConfig.cpp.o: src/3rdparty/rapidjson/allocators.h
@@ -569,11 +572,13 @@ CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/common/WorkerJ
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/common/benchmark/BenchState.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/common/interfaces/IRxListener.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/common/interfaces/IWorker.h
+CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/cpu/Cpu.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/cpu/CpuConfig.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/cpu/CpuLaunchData.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/cpu/CpuThread.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/cpu/CpuThreads.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/cpu/CpuWorker.h
+CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/backend/cpu/interfaces/ICpuInfo.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/base/api/interfaces/IApiListener.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/base/crypto/Algorithm.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/base/crypto/Coin.h
@@ -613,7 +618,7 @@ CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/crypto/rx/Rx.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/crypto/rx/RxDataset.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/crypto/rx/RxVm.h
-CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/hw/msr/MsrItem.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/net/JobResult.h
 CMakeFiles/xmrig.dir/src/backend/cpu/CpuWorker.cpp.o: src/net/JobResults.h
 
@@ -1008,7 +1013,7 @@ CMakeFiles/xmrig.dir/src/backend/cuda/runners/CudaRxRunner.cpp.o: src/crypto/ran
 CMakeFiles/xmrig.dir/src/backend/cuda/runners/CudaRxRunner.cpp.o: src/crypto/rx/Rx.h
 CMakeFiles/xmrig.dir/src/backend/cuda/runners/CudaRxRunner.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/backend/cuda/runners/CudaRxRunner.cpp.o: src/crypto/rx/RxDataset.h
-CMakeFiles/xmrig.dir/src/backend/cuda/runners/CudaRxRunner.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/backend/cuda/runners/CudaRxRunner.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/backend/cuda/wrappers/CudaDevice.cpp.o: src/backend/cuda/wrappers/CudaDevice.cpp
 CMakeFiles/xmrig.dir/src/backend/cuda/wrappers/CudaDevice.cpp.o: src/3rdparty/rapidjson/allocators.h
@@ -1973,7 +1978,7 @@ CMakeFiles/xmrig.dir/src/backend/opencl/runners/OclRxBaseRunner.cpp.o: src/crypt
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/OclRxBaseRunner.cpp.o: src/crypto/rx/RxAlgo.h
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/OclRxBaseRunner.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/OclRxBaseRunner.cpp.o: src/crypto/rx/RxDataset.h
-CMakeFiles/xmrig.dir/src/backend/opencl/runners/OclRxBaseRunner.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/backend/opencl/runners/OclRxBaseRunner.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/OclRxJitRunner.cpp.o: src/backend/opencl/runners/OclRxJitRunner.cpp
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/OclRxJitRunner.cpp.o: src/3rdparty/CL/cl.h
@@ -2134,7 +2139,7 @@ CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedData.cpp.o: src/c
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedData.cpp.o: src/crypto/rx/Rx.h
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedData.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedData.cpp.o: src/crypto/rx/RxDataset.h
-CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedData.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedData.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedState.cpp.o: src/backend/opencl/runners/tools/OclSharedState.cpp
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedState.cpp.o: src/3rdparty/rapidjson/fwd.h
@@ -2154,6 +2159,7 @@ CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedState.cpp.o: src/
 CMakeFiles/xmrig.dir/src/backend/opencl/runners/tools/OclSharedState.cpp.o: src/crypto/common/Nonce.h
 
 CMakeFiles/xmrig.dir/src/backend/opencl/wrappers/AdlLib_linux.cpp.o: src/backend/opencl/wrappers/AdlLib_linux.cpp
+CMakeFiles/xmrig.dir/src/backend/opencl/wrappers/AdlLib_linux.cpp.o: src/3rdparty/fmt/core.h
 CMakeFiles/xmrig.dir/src/backend/opencl/wrappers/AdlLib_linux.cpp.o: src/3rdparty/rapidjson/fwd.h
 CMakeFiles/xmrig.dir/src/backend/opencl/wrappers/AdlLib_linux.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
 CMakeFiles/xmrig.dir/src/backend/opencl/wrappers/AdlLib_linux.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
@@ -3973,6 +3979,9 @@ CMakeFiles/xmrig.dir/src/base/net/stratum/benchmark/BenchClient.cpp.o: src/base/
 CMakeFiles/xmrig.dir/src/base/net/stratum/benchmark/BenchClient.cpp.o: src/base/tools/Object.h
 CMakeFiles/xmrig.dir/src/base/net/stratum/benchmark/BenchClient.cpp.o: src/base/tools/String.h
 CMakeFiles/xmrig.dir/src/base/net/stratum/benchmark/BenchClient.cpp.o: src/crypto/common/Assembly.h
+CMakeFiles/xmrig.dir/src/base/net/stratum/benchmark/BenchClient.cpp.o: src/hw/dmi/DmiBoard.h
+CMakeFiles/xmrig.dir/src/base/net/stratum/benchmark/BenchClient.cpp.o: src/hw/dmi/DmiMemory.h
+CMakeFiles/xmrig.dir/src/base/net/stratum/benchmark/BenchClient.cpp.o: src/hw/dmi/DmiReader.h
 CMakeFiles/xmrig.dir/src/base/net/stratum/benchmark/BenchClient.cpp.o: src/version.h
 
 CMakeFiles/xmrig.dir/src/base/net/stratum/benchmark/BenchConfig.cpp.o: src/base/net/stratum/benchmark/BenchConfig.cpp
@@ -4232,6 +4241,7 @@ CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/backend/cpu/CpuLaunchData.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/backend/cpu/CpuThread.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/backend/cpu/CpuThreads.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/backend/cpu/interfaces/ICpuInfo.h
+CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/base/api/Api.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/base/api/interfaces/IApiListener.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/base/crypto/Algorithm.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/base/crypto/Coin.h
@@ -4261,6 +4271,7 @@ CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/crypto/common/Assembly.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/crypto/common/HugePagesInfo.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/crypto/common/Nonce.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/crypto/common/VirtualMemory.h
+CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/hw/api/HwApi.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/net/Network.h
 CMakeFiles/xmrig.dir/src/core/Controller.cpp.o: src/net/interfaces/IJobResultListener.h
 
@@ -4339,7 +4350,7 @@ CMakeFiles/xmrig.dir/src/core/Miner.cpp.o: src/crypto/randomx/blake2/blake2.h
 CMakeFiles/xmrig.dir/src/core/Miner.cpp.o: src/crypto/rx/Profiler.h
 CMakeFiles/xmrig.dir/src/core/Miner.cpp.o: src/crypto/rx/Rx.h
 CMakeFiles/xmrig.dir/src/core/Miner.cpp.o: src/crypto/rx/RxConfig.h
-CMakeFiles/xmrig.dir/src/core/Miner.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/core/Miner.cpp.o: src/hw/msr/MsrItem.h
 CMakeFiles/xmrig.dir/src/core/Miner.cpp.o: src/version.h
 
 CMakeFiles/xmrig.dir/src/core/config/Config.cpp.o: src/core/config/Config.cpp
@@ -4406,7 +4417,7 @@ CMakeFiles/xmrig.dir/src/core/config/Config.cpp.o: src/crypto/cn/CnHash.h
 CMakeFiles/xmrig.dir/src/core/config/Config.cpp.o: src/crypto/common/Assembly.h
 CMakeFiles/xmrig.dir/src/core/config/Config.cpp.o: src/crypto/common/Nonce.h
 CMakeFiles/xmrig.dir/src/core/config/Config.cpp.o: src/crypto/rx/RxConfig.h
-CMakeFiles/xmrig.dir/src/core/config/Config.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/core/config/Config.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/core/config/ConfigTransform.cpp
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/3rdparty/rapidjson/allocators.h
@@ -4437,22 +4448,28 @@ CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/backend/cpu/CpuT
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/backend/cpu/CpuThreads.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/crypto/Algorithm.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/crypto/Coin.h
+CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/kernel/config/BaseConfig.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/kernel/config/BaseTransform.h
+CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/kernel/config/Title.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/kernel/interfaces/IConfig.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/kernel/interfaces/IConfigTransform.h
+CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/net/http/Http.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/net/stratum/Pool.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/net/stratum/Pools.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/net/stratum/ProxyUrl.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/net/stratum/Url.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/net/stratum/benchmark/BenchConfig.h
+CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/net/tls/TlsConfig.h
+CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/tools/Object.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/core/config/Config.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/core/config/ConfigTransform.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/crypto/cn/CnAlgo.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/crypto/cn/CnHash.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/crypto/common/Assembly.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/crypto/common/Nonce.h
 CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/crypto/rx/RxConfig.h
-CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/core/config/ConfigTransform.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.o: src/crypto/argon2/Impl.cpp
 CMakeFiles/xmrig.dir/src/crypto/argon2/Impl.cpp.o: src/3rdparty/argon2.h
@@ -4582,18 +4599,7 @@ CMakeFiles/xmrig.dir/src/crypto/common/HugePagesInfo.cpp.o: src/crypto/common/Vi
 
 CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/crypto/common/LinuxMemory.cpp
 CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/3rdparty/fmt/core.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/3rdparty/rapidjson/fwd.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/3rdparty/rapidjson/rapidjson.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/backend/cpu/Cpu.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/backend/cpu/CpuThread.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/backend/cpu/CpuThreads.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/backend/cpu/interfaces/ICpuInfo.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/base/crypto/Algorithm.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/base/io/log/Log.h
 CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/base/tools/Object.h
-CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/crypto/common/Assembly.h
 CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/crypto/common/HugePagesInfo.h
 CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/crypto/common/LinuxMemory.h
 CMakeFiles/xmrig.dir/src/crypto/common/LinuxMemory.cpp.o: src/crypto/common/VirtualMemory.h
@@ -4808,7 +4814,7 @@ CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o: src/crypto/rando
 CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o: src/crypto/randomx/superscalar_program.hpp
 CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o: src/crypto/randomx/virtual_memory.hpp
 CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o: src/crypto/rx/Profiler.h
-CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o: src/crypto/rx/Rx.h
+CMakeFiles/xmrig.dir/src/crypto/randomx/jit_compiler_x86.cpp.o: src/crypto/rx/RxFix.h
 
 CMakeFiles/xmrig.dir/src/crypto/randomx/randomx.cpp.o: src/crypto/randomx/randomx.cpp
 CMakeFiles/xmrig.dir/src/crypto/randomx/randomx.cpp.o: src/3rdparty/rapidjson/fwd.h
@@ -4988,9 +4994,11 @@ CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/randomx/intrin_portable.
 CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/randomx/randomx.h
 CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/rx/Rx.h
 CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/rx/RxConfig.h
+CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/rx/RxFix.h
+CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/rx/RxMsr.h
 CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/rx/RxQueue.h
 CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/rx/RxSeed.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/crypto/rx/Rx.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxAlgo.cpp.o: src/crypto/rx/RxAlgo.cpp
 CMakeFiles/xmrig.dir/src/crypto/rx/RxAlgo.cpp.o: src/3rdparty/rapidjson/fwd.h
@@ -5026,7 +5034,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o: src/crypto/rx/RxCache.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o: src/crypto/rx/RxDataset.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o: src/crypto/rx/RxSeed.h
-CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxBasicStorage.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxCache.cpp.o: src/crypto/rx/RxCache.cpp
 CMakeFiles/xmrig.dir/src/crypto/rx/RxCache.cpp.o: src/base/tools/Buffer.h
@@ -5074,7 +5082,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o: src/base/tools/Object.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o: src/base/tools/String.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o: src/crypto/common/Assembly.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o: src/crypto/rx/RxConfig.h
-CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxConfig.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: src/crypto/rx/RxDataset.cpp
 CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: src/3rdparty/rapidjson/fwd.h
@@ -5103,7 +5111,31 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: src/crypto/rx/RxAlgo.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: src/crypto/rx/RxCache.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: src/crypto/rx/RxDataset.h
-CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.o: src/hw/msr/MsrItem.h
+
+CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o: src/crypto/rx/RxFix_linux.cpp
+CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o: src/base/io/log/Log.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o: src/crypto/rx/RxFix.h
+
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/crypto/rx/RxMsr.cpp
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/3rdparty/rapidjson/fwd.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/3rdparty/rapidjson/rapidjson.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/backend/cpu/Cpu.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/backend/cpu/CpuThread.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/backend/cpu/CpuThreads.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/backend/cpu/interfaces/ICpuInfo.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/base/crypto/Algorithm.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/base/io/log/Log.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/base/tools/Chrono.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/base/tools/Object.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/crypto/common/Assembly.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/crypto/rx/RxConfig.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/crypto/rx/RxMsr.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/hw/msr/Msr.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: src/crypto/rx/RxNUMAStorage.cpp
 CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: src/3rdparty/rapidjson/fwd.h
@@ -5135,7 +5167,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: src/crypto/rx/RxDataset.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: src/crypto/rx/RxNUMAStorage.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: src/crypto/rx/RxSeed.h
-CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxNUMAStorage.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: src/crypto/rx/RxQueue.cpp
 CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: src/3rdparty/rapidjson/fwd.h
@@ -5160,7 +5192,7 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: src/crypto/rx/RxNUMAStorage.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: src/crypto/rx/RxQueue.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: src/crypto/rx/RxSeed.h
-CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxQueue.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: src/crypto/rx/RxVm.cpp
 CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: src/3rdparty/rapidjson/fwd.h
@@ -5185,52 +5217,173 @@ CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: src/crypto/rx/RxCache.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: src/crypto/rx/RxConfig.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: src/crypto/rx/RxDataset.h
 CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: src/crypto/rx/RxVm.h
-CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.o: src/hw/msr/MsrItem.h
 
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/crypto/rx/Rx_linux.cpp
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/3rdparty/rapidjson/fwd.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/3rdparty/rapidjson/rapidjson.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/backend/cpu/Cpu.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/backend/cpu/CpuThread.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/backend/cpu/CpuThreads.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/backend/cpu/interfaces/ICpuInfo.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/base/crypto/Algorithm.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/base/io/log/Log.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/base/tools/Chrono.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/base/tools/Object.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/base/tools/String.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/crypto/common/Assembly.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/crypto/common/HugePagesInfo.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/crypto/rx/Rx.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/crypto/rx/RxConfig.h
-CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/hw/api/HwApi.cpp
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/3rdparty/rapidjson/fwd.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/3rdparty/rapidjson/rapidjson.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/base/api/interfaces/IApiListener.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/base/api/interfaces/IApiRequest.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/base/tools/Object.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/hw/api/HwApi.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/hw/dmi/DmiBoard.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/hw/dmi/DmiMemory.h
+CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o: src/hw/dmi/DmiReader.h
 
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/crypto/rx/msr/MsrItem.cpp
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/allocators.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/document.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/encodedstream.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/encodings.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/error/error.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/fwd.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/biginteger.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/diyfp.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/ieee754.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/meta.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/pow10.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/stack.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/strfunc.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/strtod.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/swap.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/memorystream.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/rapidjson.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/reader.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/stream.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/base/tools/String.h
-CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o: src/crypto/rx/msr/MsrItem.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/hw/dmi/DmiBoard.cpp
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/allocators.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/document.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/encodedstream.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/encodings.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/error/error.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/fwd.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/internal/biginteger.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/internal/diyfp.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/internal/ieee754.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/internal/meta.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/internal/pow10.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/internal/stack.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/internal/strfunc.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/internal/strtod.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/internal/swap.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/memorystream.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/rapidjson.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/reader.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/3rdparty/rapidjson/stream.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/hw/dmi/DmiBoard.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o: src/hw/dmi/DmiTools.h
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/hw/dmi/DmiMemory.cpp
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/fmt/core.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/fmt/format-inl.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/fmt/format.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/allocators.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/document.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/encodedstream.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/encodings.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/error/error.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/fwd.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/internal/biginteger.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/internal/diyfp.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/internal/ieee754.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/internal/meta.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/internal/pow10.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/internal/stack.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/internal/strfunc.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/internal/strtod.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/internal/swap.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/memorystream.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/rapidjson.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/reader.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/3rdparty/rapidjson/stream.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/hw/dmi/DmiMemory.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o: src/hw/dmi/DmiTools.h
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/hw/dmi/DmiReader.cpp
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/fmt/core.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/allocators.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/document.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/encodedstream.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/encodings.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/error/error.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/fwd.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/internal/biginteger.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/internal/diyfp.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/internal/ieee754.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/internal/meta.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/internal/pow10.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/internal/stack.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/internal/strfunc.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/internal/strtod.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/internal/swap.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/memorystream.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/rapidjson.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/reader.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/3rdparty/rapidjson/stream.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/hw/dmi/DmiBoard.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/hw/dmi/DmiMemory.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/hw/dmi/DmiReader.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o: src/hw/dmi/DmiTools.h
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/hw/dmi/DmiReader_unix.cpp
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/3rdparty/rapidjson/fwd.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/3rdparty/rapidjson/rapidjson.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/hw/dmi/DmiBoard.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/hw/dmi/DmiMemory.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/hw/dmi/DmiReader.h
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o: src/hw/dmi/DmiTools.h
+
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.o: src/hw/dmi/DmiTools.cpp
+CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.o: src/hw/dmi/DmiTools.h
+
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/hw/msr/Msr.cpp
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/3rdparty/rapidjson/fwd.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/3rdparty/rapidjson/rapidjson.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/base/io/log/Log.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/base/tools/Object.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/hw/msr/Msr.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o: src/hw/msr/MsrItem.h
+
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/hw/msr/MsrItem.cpp
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/allocators.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/document.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/encodedstream.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/encodings.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/error/error.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/fwd.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/biginteger.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/diyfp.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/ieee754.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/meta.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/pow10.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/stack.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/strfunc.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/strtod.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/internal/swap.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/memorystream.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/rapidjson.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/reader.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/3rdparty/rapidjson/stream.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o: src/hw/msr/MsrItem.h
+
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/hw/msr/Msr_linux.cpp
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/3rdparty/fmt/core.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/3rdparty/rapidjson/fwd.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/3rdparty/rapidjson/msinttypes/inttypes.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/3rdparty/rapidjson/msinttypes/stdint.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/3rdparty/rapidjson/rapidjson.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/backend/cpu/Cpu.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/backend/cpu/CpuThread.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/backend/cpu/CpuThreads.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/backend/cpu/interfaces/ICpuInfo.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/base/crypto/Algorithm.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/base/io/log/Log.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/base/tools/Object.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/base/tools/String.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/crypto/common/Assembly.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/hw/msr/Msr.h
+CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o: src/hw/msr/MsrItem.h
 
 CMakeFiles/xmrig.dir/src/net/JobResults.cpp.o: src/net/JobResults.cpp
 CMakeFiles/xmrig.dir/src/net/JobResults.cpp.o: src/3rdparty/rapidjson/fwd.h

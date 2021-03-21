@@ -124,13 +124,13 @@ src/3rdparty/libethash/clean: src/3rdparty/libethash/CMakeFiles/ethash.dir/clean
 # Target rules for target CMakeFiles/xmrig.dir
 
 # All Build rule for target.
+CMakeFiles/xmrig.dir/all: CMakeFiles/xmrig-asm.dir/all
 CMakeFiles/xmrig.dir/all: src/3rdparty/argon2/CMakeFiles/argon2.dir/all
 CMakeFiles/xmrig.dir/all: src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/all
 CMakeFiles/xmrig.dir/all: src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/all
 CMakeFiles/xmrig.dir/all: src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/all
 CMakeFiles/xmrig.dir/all: src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/all
 CMakeFiles/xmrig.dir/all: src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/all
-CMakeFiles/xmrig.dir/all: CMakeFiles/xmrig-asm.dir/all
 CMakeFiles/xmrig.dir/all: src/3rdparty/libethash/CMakeFiles/ethash.dir/all
 	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/depend
 	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/build
@@ -197,7 +197,7 @@ src/3rdparty/argon2/CMakeFiles/argon2.dir/all: src/3rdparty/argon2/CMakeFiles/ar
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2.dir/rule
@@ -219,12 +219,12 @@ src/3rdparty/argon2/CMakeFiles/argon2.dir/clean:
 src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/all:
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/depend
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num= "Built target argon2-avx512f"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=4 "Built target argon2-avx512f"
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/rule
@@ -246,12 +246,12 @@ src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/clean:
 src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/all:
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/depend
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=4 "Built target argon2-avx2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num= "Built target argon2-avx2"
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/rule
@@ -273,12 +273,12 @@ src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/clean:
 src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/all:
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/depend
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=7 "Built target argon2-xop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num= "Built target argon2-xop"
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/rule
@@ -354,12 +354,12 @@ src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/clean:
 src/3rdparty/libethash/CMakeFiles/ethash.dir/all:
 	$(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/depend
 	$(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=8 "Built target ethash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/src/github/xmrig/CMakeFiles --progress-num=7,8 "Built target ethash"
 .PHONY : src/3rdparty/libethash/CMakeFiles/ethash.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/libethash/CMakeFiles/ethash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/CMakeFiles/ethash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/src/github/xmrig/CMakeFiles 0
 .PHONY : src/3rdparty/libethash/CMakeFiles/ethash.dir/rule

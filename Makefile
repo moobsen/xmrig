@@ -6059,6 +6059,60 @@ src/crypto/rx/RxDataset.cpp.s:
 	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/RxDataset.cpp.s
 .PHONY : src/crypto/rx/RxDataset.cpp.s
 
+src/crypto/rx/RxFix_linux.o: src/crypto/rx/RxFix_linux.cpp.o
+
+.PHONY : src/crypto/rx/RxFix_linux.o
+
+# target to build an object file
+src/crypto/rx/RxFix_linux.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.o
+.PHONY : src/crypto/rx/RxFix_linux.cpp.o
+
+src/crypto/rx/RxFix_linux.i: src/crypto/rx/RxFix_linux.cpp.i
+
+.PHONY : src/crypto/rx/RxFix_linux.i
+
+# target to preprocess a source file
+src/crypto/rx/RxFix_linux.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.i
+.PHONY : src/crypto/rx/RxFix_linux.cpp.i
+
+src/crypto/rx/RxFix_linux.s: src/crypto/rx/RxFix_linux.cpp.s
+
+.PHONY : src/crypto/rx/RxFix_linux.s
+
+# target to generate assembly for a file
+src/crypto/rx/RxFix_linux.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/RxFix_linux.cpp.s
+.PHONY : src/crypto/rx/RxFix_linux.cpp.s
+
+src/crypto/rx/RxMsr.o: src/crypto/rx/RxMsr.cpp.o
+
+.PHONY : src/crypto/rx/RxMsr.o
+
+# target to build an object file
+src/crypto/rx/RxMsr.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.o
+.PHONY : src/crypto/rx/RxMsr.cpp.o
+
+src/crypto/rx/RxMsr.i: src/crypto/rx/RxMsr.cpp.i
+
+.PHONY : src/crypto/rx/RxMsr.i
+
+# target to preprocess a source file
+src/crypto/rx/RxMsr.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.i
+.PHONY : src/crypto/rx/RxMsr.cpp.i
+
+src/crypto/rx/RxMsr.s: src/crypto/rx/RxMsr.cpp.s
+
+.PHONY : src/crypto/rx/RxMsr.s
+
+# target to generate assembly for a file
+src/crypto/rx/RxMsr.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/RxMsr.cpp.s
+.PHONY : src/crypto/rx/RxMsr.cpp.s
+
 src/crypto/rx/RxNUMAStorage.o: src/crypto/rx/RxNUMAStorage.cpp.o
 
 .PHONY : src/crypto/rx/RxNUMAStorage.o
@@ -6140,59 +6194,248 @@ src/crypto/rx/RxVm.cpp.s:
 	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/RxVm.cpp.s
 .PHONY : src/crypto/rx/RxVm.cpp.s
 
-src/crypto/rx/Rx_linux.o: src/crypto/rx/Rx_linux.cpp.o
+src/hw/api/HwApi.o: src/hw/api/HwApi.cpp.o
 
-.PHONY : src/crypto/rx/Rx_linux.o
-
-# target to build an object file
-src/crypto/rx/Rx_linux.cpp.o:
-	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.o
-.PHONY : src/crypto/rx/Rx_linux.cpp.o
-
-src/crypto/rx/Rx_linux.i: src/crypto/rx/Rx_linux.cpp.i
-
-.PHONY : src/crypto/rx/Rx_linux.i
-
-# target to preprocess a source file
-src/crypto/rx/Rx_linux.cpp.i:
-	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.i
-.PHONY : src/crypto/rx/Rx_linux.cpp.i
-
-src/crypto/rx/Rx_linux.s: src/crypto/rx/Rx_linux.cpp.s
-
-.PHONY : src/crypto/rx/Rx_linux.s
-
-# target to generate assembly for a file
-src/crypto/rx/Rx_linux.cpp.s:
-	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/Rx_linux.cpp.s
-.PHONY : src/crypto/rx/Rx_linux.cpp.s
-
-src/crypto/rx/msr/MsrItem.o: src/crypto/rx/msr/MsrItem.cpp.o
-
-.PHONY : src/crypto/rx/msr/MsrItem.o
+.PHONY : src/hw/api/HwApi.o
 
 # target to build an object file
-src/crypto/rx/msr/MsrItem.cpp.o:
-	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.o
-.PHONY : src/crypto/rx/msr/MsrItem.cpp.o
+src/hw/api/HwApi.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.o
+.PHONY : src/hw/api/HwApi.cpp.o
 
-src/crypto/rx/msr/MsrItem.i: src/crypto/rx/msr/MsrItem.cpp.i
+src/hw/api/HwApi.i: src/hw/api/HwApi.cpp.i
 
-.PHONY : src/crypto/rx/msr/MsrItem.i
+.PHONY : src/hw/api/HwApi.i
 
 # target to preprocess a source file
-src/crypto/rx/msr/MsrItem.cpp.i:
-	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.i
-.PHONY : src/crypto/rx/msr/MsrItem.cpp.i
+src/hw/api/HwApi.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.i
+.PHONY : src/hw/api/HwApi.cpp.i
 
-src/crypto/rx/msr/MsrItem.s: src/crypto/rx/msr/MsrItem.cpp.s
+src/hw/api/HwApi.s: src/hw/api/HwApi.cpp.s
 
-.PHONY : src/crypto/rx/msr/MsrItem.s
+.PHONY : src/hw/api/HwApi.s
 
 # target to generate assembly for a file
-src/crypto/rx/msr/MsrItem.cpp.s:
-	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/crypto/rx/msr/MsrItem.cpp.s
-.PHONY : src/crypto/rx/msr/MsrItem.cpp.s
+src/hw/api/HwApi.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/api/HwApi.cpp.s
+.PHONY : src/hw/api/HwApi.cpp.s
+
+src/hw/dmi/DmiBoard.o: src/hw/dmi/DmiBoard.cpp.o
+
+.PHONY : src/hw/dmi/DmiBoard.o
+
+# target to build an object file
+src/hw/dmi/DmiBoard.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.o
+.PHONY : src/hw/dmi/DmiBoard.cpp.o
+
+src/hw/dmi/DmiBoard.i: src/hw/dmi/DmiBoard.cpp.i
+
+.PHONY : src/hw/dmi/DmiBoard.i
+
+# target to preprocess a source file
+src/hw/dmi/DmiBoard.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.i
+.PHONY : src/hw/dmi/DmiBoard.cpp.i
+
+src/hw/dmi/DmiBoard.s: src/hw/dmi/DmiBoard.cpp.s
+
+.PHONY : src/hw/dmi/DmiBoard.s
+
+# target to generate assembly for a file
+src/hw/dmi/DmiBoard.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiBoard.cpp.s
+.PHONY : src/hw/dmi/DmiBoard.cpp.s
+
+src/hw/dmi/DmiMemory.o: src/hw/dmi/DmiMemory.cpp.o
+
+.PHONY : src/hw/dmi/DmiMemory.o
+
+# target to build an object file
+src/hw/dmi/DmiMemory.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.o
+.PHONY : src/hw/dmi/DmiMemory.cpp.o
+
+src/hw/dmi/DmiMemory.i: src/hw/dmi/DmiMemory.cpp.i
+
+.PHONY : src/hw/dmi/DmiMemory.i
+
+# target to preprocess a source file
+src/hw/dmi/DmiMemory.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.i
+.PHONY : src/hw/dmi/DmiMemory.cpp.i
+
+src/hw/dmi/DmiMemory.s: src/hw/dmi/DmiMemory.cpp.s
+
+.PHONY : src/hw/dmi/DmiMemory.s
+
+# target to generate assembly for a file
+src/hw/dmi/DmiMemory.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiMemory.cpp.s
+.PHONY : src/hw/dmi/DmiMemory.cpp.s
+
+src/hw/dmi/DmiReader.o: src/hw/dmi/DmiReader.cpp.o
+
+.PHONY : src/hw/dmi/DmiReader.o
+
+# target to build an object file
+src/hw/dmi/DmiReader.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.o
+.PHONY : src/hw/dmi/DmiReader.cpp.o
+
+src/hw/dmi/DmiReader.i: src/hw/dmi/DmiReader.cpp.i
+
+.PHONY : src/hw/dmi/DmiReader.i
+
+# target to preprocess a source file
+src/hw/dmi/DmiReader.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.i
+.PHONY : src/hw/dmi/DmiReader.cpp.i
+
+src/hw/dmi/DmiReader.s: src/hw/dmi/DmiReader.cpp.s
+
+.PHONY : src/hw/dmi/DmiReader.s
+
+# target to generate assembly for a file
+src/hw/dmi/DmiReader.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader.cpp.s
+.PHONY : src/hw/dmi/DmiReader.cpp.s
+
+src/hw/dmi/DmiReader_unix.o: src/hw/dmi/DmiReader_unix.cpp.o
+
+.PHONY : src/hw/dmi/DmiReader_unix.o
+
+# target to build an object file
+src/hw/dmi/DmiReader_unix.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.o
+.PHONY : src/hw/dmi/DmiReader_unix.cpp.o
+
+src/hw/dmi/DmiReader_unix.i: src/hw/dmi/DmiReader_unix.cpp.i
+
+.PHONY : src/hw/dmi/DmiReader_unix.i
+
+# target to preprocess a source file
+src/hw/dmi/DmiReader_unix.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.i
+.PHONY : src/hw/dmi/DmiReader_unix.cpp.i
+
+src/hw/dmi/DmiReader_unix.s: src/hw/dmi/DmiReader_unix.cpp.s
+
+.PHONY : src/hw/dmi/DmiReader_unix.s
+
+# target to generate assembly for a file
+src/hw/dmi/DmiReader_unix.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiReader_unix.cpp.s
+.PHONY : src/hw/dmi/DmiReader_unix.cpp.s
+
+src/hw/dmi/DmiTools.o: src/hw/dmi/DmiTools.cpp.o
+
+.PHONY : src/hw/dmi/DmiTools.o
+
+# target to build an object file
+src/hw/dmi/DmiTools.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.o
+.PHONY : src/hw/dmi/DmiTools.cpp.o
+
+src/hw/dmi/DmiTools.i: src/hw/dmi/DmiTools.cpp.i
+
+.PHONY : src/hw/dmi/DmiTools.i
+
+# target to preprocess a source file
+src/hw/dmi/DmiTools.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.i
+.PHONY : src/hw/dmi/DmiTools.cpp.i
+
+src/hw/dmi/DmiTools.s: src/hw/dmi/DmiTools.cpp.s
+
+.PHONY : src/hw/dmi/DmiTools.s
+
+# target to generate assembly for a file
+src/hw/dmi/DmiTools.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/dmi/DmiTools.cpp.s
+.PHONY : src/hw/dmi/DmiTools.cpp.s
+
+src/hw/msr/Msr.o: src/hw/msr/Msr.cpp.o
+
+.PHONY : src/hw/msr/Msr.o
+
+# target to build an object file
+src/hw/msr/Msr.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.o
+.PHONY : src/hw/msr/Msr.cpp.o
+
+src/hw/msr/Msr.i: src/hw/msr/Msr.cpp.i
+
+.PHONY : src/hw/msr/Msr.i
+
+# target to preprocess a source file
+src/hw/msr/Msr.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.i
+.PHONY : src/hw/msr/Msr.cpp.i
+
+src/hw/msr/Msr.s: src/hw/msr/Msr.cpp.s
+
+.PHONY : src/hw/msr/Msr.s
+
+# target to generate assembly for a file
+src/hw/msr/Msr.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/msr/Msr.cpp.s
+.PHONY : src/hw/msr/Msr.cpp.s
+
+src/hw/msr/MsrItem.o: src/hw/msr/MsrItem.cpp.o
+
+.PHONY : src/hw/msr/MsrItem.o
+
+# target to build an object file
+src/hw/msr/MsrItem.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.o
+.PHONY : src/hw/msr/MsrItem.cpp.o
+
+src/hw/msr/MsrItem.i: src/hw/msr/MsrItem.cpp.i
+
+.PHONY : src/hw/msr/MsrItem.i
+
+# target to preprocess a source file
+src/hw/msr/MsrItem.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.i
+.PHONY : src/hw/msr/MsrItem.cpp.i
+
+src/hw/msr/MsrItem.s: src/hw/msr/MsrItem.cpp.s
+
+.PHONY : src/hw/msr/MsrItem.s
+
+# target to generate assembly for a file
+src/hw/msr/MsrItem.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/msr/MsrItem.cpp.s
+.PHONY : src/hw/msr/MsrItem.cpp.s
+
+src/hw/msr/Msr_linux.o: src/hw/msr/Msr_linux.cpp.o
+
+.PHONY : src/hw/msr/Msr_linux.o
+
+# target to build an object file
+src/hw/msr/Msr_linux.cpp.o:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.o
+.PHONY : src/hw/msr/Msr_linux.cpp.o
+
+src/hw/msr/Msr_linux.i: src/hw/msr/Msr_linux.cpp.i
+
+.PHONY : src/hw/msr/Msr_linux.i
+
+# target to preprocess a source file
+src/hw/msr/Msr_linux.cpp.i:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.i
+.PHONY : src/hw/msr/Msr_linux.cpp.i
+
+src/hw/msr/Msr_linux.s: src/hw/msr/Msr_linux.cpp.s
+
+.PHONY : src/hw/msr/Msr_linux.s
+
+# target to generate assembly for a file
+src/hw/msr/Msr_linux.cpp.s:
+	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/src/hw/msr/Msr_linux.cpp.s
+.PHONY : src/hw/msr/Msr_linux.cpp.s
 
 src/net/JobResults.o: src/net/JobResults.cpp.o
 
@@ -6967,6 +7210,12 @@ help:
 	@echo "... src/crypto/rx/RxDataset.o"
 	@echo "... src/crypto/rx/RxDataset.i"
 	@echo "... src/crypto/rx/RxDataset.s"
+	@echo "... src/crypto/rx/RxFix_linux.o"
+	@echo "... src/crypto/rx/RxFix_linux.i"
+	@echo "... src/crypto/rx/RxFix_linux.s"
+	@echo "... src/crypto/rx/RxMsr.o"
+	@echo "... src/crypto/rx/RxMsr.i"
+	@echo "... src/crypto/rx/RxMsr.s"
 	@echo "... src/crypto/rx/RxNUMAStorage.o"
 	@echo "... src/crypto/rx/RxNUMAStorage.i"
 	@echo "... src/crypto/rx/RxNUMAStorage.s"
@@ -6976,12 +7225,33 @@ help:
 	@echo "... src/crypto/rx/RxVm.o"
 	@echo "... src/crypto/rx/RxVm.i"
 	@echo "... src/crypto/rx/RxVm.s"
-	@echo "... src/crypto/rx/Rx_linux.o"
-	@echo "... src/crypto/rx/Rx_linux.i"
-	@echo "... src/crypto/rx/Rx_linux.s"
-	@echo "... src/crypto/rx/msr/MsrItem.o"
-	@echo "... src/crypto/rx/msr/MsrItem.i"
-	@echo "... src/crypto/rx/msr/MsrItem.s"
+	@echo "... src/hw/api/HwApi.o"
+	@echo "... src/hw/api/HwApi.i"
+	@echo "... src/hw/api/HwApi.s"
+	@echo "... src/hw/dmi/DmiBoard.o"
+	@echo "... src/hw/dmi/DmiBoard.i"
+	@echo "... src/hw/dmi/DmiBoard.s"
+	@echo "... src/hw/dmi/DmiMemory.o"
+	@echo "... src/hw/dmi/DmiMemory.i"
+	@echo "... src/hw/dmi/DmiMemory.s"
+	@echo "... src/hw/dmi/DmiReader.o"
+	@echo "... src/hw/dmi/DmiReader.i"
+	@echo "... src/hw/dmi/DmiReader.s"
+	@echo "... src/hw/dmi/DmiReader_unix.o"
+	@echo "... src/hw/dmi/DmiReader_unix.i"
+	@echo "... src/hw/dmi/DmiReader_unix.s"
+	@echo "... src/hw/dmi/DmiTools.o"
+	@echo "... src/hw/dmi/DmiTools.i"
+	@echo "... src/hw/dmi/DmiTools.s"
+	@echo "... src/hw/msr/Msr.o"
+	@echo "... src/hw/msr/Msr.i"
+	@echo "... src/hw/msr/Msr.s"
+	@echo "... src/hw/msr/MsrItem.o"
+	@echo "... src/hw/msr/MsrItem.i"
+	@echo "... src/hw/msr/MsrItem.s"
+	@echo "... src/hw/msr/Msr_linux.o"
+	@echo "... src/hw/msr/Msr_linux.i"
+	@echo "... src/hw/msr/Msr_linux.s"
 	@echo "... src/net/JobResults.o"
 	@echo "... src/net/JobResults.i"
 	@echo "... src/net/JobResults.s"

@@ -31,6 +31,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "src/backend/cuda/cuda.cmake"
   "src/backend/opencl/opencl.cmake"
   "src/base/base.cmake"
+  "src/hw/api/api.cmake"
+  "src/hw/dmi/dmi.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
