@@ -28,6 +28,7 @@
 #include "backend/cpu/Cpu.h"
 #include "base/io/log/Log.h"
 #include "base/kernel/interfaces/IJsonReader.h"
+#include "base/net/dns/Dns.h"
 #include "crypto/common/Assembly.h"
 
 
@@ -224,11 +225,15 @@ bool xmrig::Config::read(const IJsonReader &reader, const char *fileName)
 #   endif
 
 #   ifdef XMRIG_FEATURE_OPENCL
-    d_ptr->cl.read(reader.getValue(kOcl));
+    if (!pools().isBenchmark()) {
+        d_ptr->cl.read(reader.getValue(kOcl));
+    }
 #   endif
 
 #   ifdef XMRIG_FEATURE_CUDA
-    d_ptr->cuda.read(reader.getValue(kCuda));
+    if (!pools().isBenchmark()) {
+        d_ptr->cuda.read(reader.getValue(kCuda));
+    }
 #   endif
 
 #   if defined(XMRIG_FEATURE_NVML) || defined (XMRIG_FEATURE_ADL)
@@ -295,6 +300,7 @@ void xmrig::Config::getJSON(rapidjson::Document &doc) const
     doc.AddMember(StringRef(kTls),                      m_tls.toJSON(doc), allocator);
 #   endif
 
+    doc.AddMember(StringRef(DnsConfig::kField),         Dns::config().toJSON(doc), allocator);
     doc.AddMember(StringRef(kUserAgent),                m_userAgent.toJSON(), allocator);
     doc.AddMember(StringRef(kVerbose),                  Log::verbose(), allocator);
     doc.AddMember(StringRef(kWatch),                    m_watch, allocator);
